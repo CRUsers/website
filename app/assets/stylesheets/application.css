@@ -3,5 +3,16 @@
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
- *= require_tree . 
+ *= require_tree .
 */
+
+@font-face {
+    font-family: 'KnowYourProductRegular';
+    src: url('know_your_product-webfont.eot');
+    src: url('know_your_product-webfont.eot?#iefix') format('embedded-opentype'),
+         url('know_your_product-webfont.woff') format('woff'),
+         url('know_your_product-webfont.ttf') format('truetype'),
+         url('know_your_product-webfont.svg#KnowYourProductRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
