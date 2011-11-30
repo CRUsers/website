@@ -29,7 +29,7 @@ body {
 }
 
 /* line 37, ../../app/assets/stylesheets/application.css.scss */
-h1 {
+h1, h2 {
   font-family: KnowYourProduct;
 }
 
