@@ -12,7 +12,7 @@
 :javascript
   window.jQuery || document.write("<script src='/javascripts/jquery.min.js'>\x3C/script>")
 
-= javascript_include_tag 'rails.js', 'plugins.js', 'application.js'
+= javascript_include_tag '/javascripts/rails.js', '/javascripts/plugins.js', 'application.js'
 
 -#  Append your own using content_for :javascripts
 = yield :javascripts
