@@ -6,6 +6,4 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require modernizr
-//= require respond
-//= require rails
+//= require_tree .
